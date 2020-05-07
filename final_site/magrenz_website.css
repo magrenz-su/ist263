@@ -171,6 +171,7 @@ body {
     background: #ffcc00;
     display: flex;
     justify-content: center;
+    width: 100%;
     margin-top: 450px;
     margin-bottom: 450px;
 }
@@ -183,8 +184,9 @@ body {
   }
 
 .home-pic { 
-    display: flex;
-    justify-content: center; 
+ width: 70%;
+ height: auto;
+ position: center;
 }
 
 .home-text {
@@ -196,77 +198,73 @@ body {
 
 .aside-home {
     display: flex;
-    margin-bottom: 450px; 
-    justify-content: center;
+    width: 70%;
+    margin: 0.2em 0.2em 0.2em 0.2em;
+    position: center;
 }
 
+
 .ischool {
-    padding-right: 120px;
+    padding-right: 6em;
+    
 }
 
 .su {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: none;
 }
 
 .newhouse {
-    padding-left: 50px;
-}
+    padding: none;
+} 
 
 /* PORTFOLIO PAGE */
 
 
 .col-sm {
-    margin: 80px;
+    margin: 1em;
+    width: 33%;
+}
+
+.col {
+    width: 50%;
+    margin: 1em;
 }
 
 .portfolio-container {
-    padding-bottom: 200px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 200px;
+    padding-top: 50px;
 }
 
 
 /* RESUME PAGE */
 
 .aside-resume {
-    padding-top: 100px;
+    width: 33%;
+    float: right;
+    margin: 0 0 0.2em 0.2em;
     justify-content: center;
-    min-height: 100vh;
-    display: block;
-    padding-right: 300px;
     line-height: 1.6;
 }
 
 .main-resume {
+    Width: 60%;
     float: left;
-    margin: 150px;
-    margin-top: 450px;
-    margin-bottom: 450px;
-    margin-left: 500px; 
+    padding: 2%;
     text-align: right;
     line-height: 1.6;
-    padding-right: 20px;
-    padding-left: 200px;
-    padding-bottom: 200px;
-    position: relative;
-    min-height: 100vh;
     justify-content: center;
-    display: block;
     outline: 1px solid #ffcc00;
 }
 
 .skills {
+    width: 100%;
     background-color: #ffcc00;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 150px;
-    margin-left: 1650px;
-    margin-bottom: 1600px;
+    padding: 0 5px 5px 5px;
 }
 
 .headshot {
-    margin: 125px;
+    width: 100%;
+    padding: 0 0 0 5px;
 }
 
 
